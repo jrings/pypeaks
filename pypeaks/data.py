@@ -1,11 +1,11 @@
 from __future__ import division
-import pickle
-from warnings import warn
 
 import numpy as np
+import pickle
 from scipy.ndimage.filters import gaussian_filter
+from warnings import warn
 
-import slope
+from pypeaks import slope
 
 
 class Data:

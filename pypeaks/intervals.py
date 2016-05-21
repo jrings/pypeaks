@@ -1,5 +1,6 @@
 import numpy as np
-from slope import find_nearest_index
+
+from pypeaks.slope import find_nearest_index
 
 
 class Intervals:
