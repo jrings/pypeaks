@@ -120,7 +120,7 @@ class Data:
             peak_data = result["peaks"]
             valley_data = result["valleys"]
 
-            for i in xrange(len(peak_data[0])):
+            for i in range(len(peak_data[0])):
                 nearest_index = slope.find_nearest_index(valley_data[0],
                                                          peak_data[0][i])
                 if valley_data[0][nearest_index] < peak_data[0][i]:
@@ -284,7 +284,7 @@ class Data:
         version and peak information if provided. Just intonation
         intervals are plotted for a reference."""
 
-        import pylab as p
+        import matplotlib.pyplot as p
 
         if new_fig:
             p.figure()
